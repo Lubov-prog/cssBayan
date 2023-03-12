@@ -1,1 +1,45 @@
+* {
+  box-sizing;
+}
 
+@media (min-width: 320px) {
+  .container li {font-size: 3em;}
+  *hover {
+    display: none;
+  }
+  
+ @media (min-width: 820px) {
+   .container li {font-size: 2.5em;}
+  *hover {
+    display: none;
+  }
+   
+  @media (max-width: 1920px) {
+    .container li {font-size: 1em;}
+   }
+   
+   body {
+     width: 100%;
+     align-items: flex-start;
+     justify-content: center;
+     background-color: rgb(215, 182, 75);
+   }
+   
+   .container {
+     margin: 1vh auto; 
+     width: 350vh; 
+     cursor: pointer;
+   }
+   
+   .container li {
+     display: block;
+     padding: 1em 1.5em;
+     background-color: #f0c456; 
+     border-bottom: double rgb(128, 64, 48); 
+     font-size: 1.5em; 
+     color: rgb(128, 64, 48);
+   }
+   
+   .container:hover .text {
+     color: rgb(0, 0, 0);
+   }
