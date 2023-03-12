@@ -46,14 +46,24 @@
    
    .container-content {
      display: none;
+     transition: 3s ease;
    }
    
    .container li:hover .container-content {
      display: block;
+     text-align: center;
+     transform: rotate(5deg);
      transition: 3s ease-in-out; 
    }
    
-   .container li:hover .icon{
+   .container li:active .container-content {
+     display: block;
+     text-align: center;
+     transform: rotate(-5deg);
+     transition: 3s ease-in-out; 
+   }
+   
+   .container li:hover i{
      transform: skewX(180deg);
    }
    
