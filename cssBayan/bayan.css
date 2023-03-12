@@ -29,7 +29,7 @@
    
    .container {
      margin: 1vh auto; 
-     width: 350vh; 
+     width: 70vw; 
      cursor: pointer;
    }
    
@@ -74,12 +74,12 @@
    }
    
    .container:hover i {
-     color: brown;
+     color: #f0c456;
      transition: 3s ease-in-out;
    }
    
    .space-between {
-     width: 300vh;
+     width: 60vw;
      display: flex;
      justify-content: space-between;
    }
