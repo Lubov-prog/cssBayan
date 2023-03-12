@@ -64,19 +64,20 @@
      transform: rotate(-5deg);
      transition: 3s ease-in-out; 
    }
-   
-   .container li:hover i{
-     transform: skewX(180deg);
-   }
-   
-   i {
-     color: #f0c456;
-   }
-   
-   .container:hover i {
-     color: #f0c456;
+
+i {
+    display: none;
+}
+
+.container:hover i {
+     display: block;
      transition: 3s ease-in-out;
    }
+
+.container li:hover i{
+    display: block;
+    transfom: skewX(180deg);
+}
    
    .space-between {
      width: 60vw;
