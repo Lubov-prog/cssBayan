@@ -43,3 +43,33 @@
    .container:hover .text {
      color: rgb(0, 0, 0);
    }
+   
+   .container-content {
+     display: none;
+   }
+   
+   .container li:hover .container-content {
+     display: block;
+     transition: 3s ease-in-out; 
+   }
+   
+   .container li:hover .icon{
+     transform: skewX(180deg);
+   }
+   
+   i {
+     color: #f0c456;
+   }
+   
+   .container:hover i {
+     color: brown;
+     transition: 3s ease-in-out;
+   }
+   
+   .space-between {
+     width: 300vh;
+     display: flex;
+     justify-content: space-between;
+   }
+   
+     
